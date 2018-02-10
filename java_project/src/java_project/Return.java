@@ -7,10 +7,15 @@ public class Return {
 int x=20;
 int y=50;
 
-int answer=getsum(int x, int y){
-	int result=x+y;
-	return;
-		
-	}
+int answer=getSum(x,y);
+System.out.println("Answer is "+ answer);
 
+	}
+	public static int getSum(int x,int y) {
+
+	int result=x+y;
+	return result;
+
+}
+	
 }
